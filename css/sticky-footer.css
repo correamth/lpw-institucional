@@ -1,0 +1,206 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 0px -2px 15px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 15px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px -2px 15px -1px rgba(0,0,0,0.75);
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  margin: 5px 0;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: sticky;
+}
+.logo {
+  position: absolute;
+  width: 50px;
+  top: 0px;  
+  bottom: 0px;
+  left: 0px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#menu-main{
+  width: 92%;
+  text-align: center;
+  display:block;
+  
+}
+#menu-main li {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+#menu-main a{
+  display: block;
+}
+
+nav{
+	-webkit-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.75);
+}
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.carousel-indicators {
+  top:2%;
+}
+
+
+.carousel-indicators li {
+    	border: 1px solid black;
+}
+.carousel-indicators .active {
+	background-color: black;
+}
+
+.divc {
+background: rgba(209,209,209,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(209,209,209,1) 1%, rgba(209,209,209,1) 54%, rgba(240,240,240,1) 86%, rgba(240,240,240,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, rgba(209,209,209,1)), color-stop(54%, rgba(209,209,209,1)), color-stop(86%, rgba(240,240,240,1)), color-stop(100%, rgba(240,240,240,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(209,209,209,1) 1%, rgba(209,209,209,1) 54%, rgba(240,240,240,1) 86%, rgba(240,240,240,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(209,209,209,1) 1%, rgba(209,209,209,1) 54%, rgba(240,240,240,1) 86%, rgba(240,240,240,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(209,209,209,1) 1%, rgba(209,209,209,1) 54%, rgba(240,240,240,1) 86%, rgba(240,240,240,1) 100%);
+background: radial-gradient(ellipse at center, rgba(209,209,209,1) 1%, rgba(209,209,209,1) 54%, rgba(240,240,240,1) 86%, rgba(240,240,240,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#f0f0f0', GradientType=1 );
+}
+
+img{max-width:100%;}
+	*{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
+.my-list {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f5efef;
+    float: left;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 0px #e4d8d8;
+    position:relative;
+    overflow:hidden;
+}
+.my-list h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #ccc4c4;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    }
+	.my-list span{float:left;font-weight: bold;}
+	.my-list span:last-child{float:right;}
+	.my-list .offer{
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    border-top: 1px solid #ccc4c4;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #afadad;
+    }
+	.detail {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: center;
+    background: #fff;height: 100%;width:100%;
+	
+}
+	
+.my-list:hover .detail{top:0;}
+
+
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
+
+
+#contatti{
+  
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
